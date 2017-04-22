@@ -1,4 +1,7 @@
-# api documentation for  [gulp-directory-sync (v1.2.3)](https://github.com/peteward44/gulp-directory-sync)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-directory-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-directory-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-directory-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-directory-sync)
+# npmdoc-gulp-directory-sync
+
+#### api documentation for  [gulp-directory-sync (v1.2.3)](https://github.com/peteward44/gulp-directory-sync)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-directory-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-directory-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-directory-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-directory-sync)
+
 #### A gulp plugin to sync 2 directories which actually works.
 
 [![NPM](https://nodei.co/npm/gulp-directory-sync.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-directory-sync)
@@ -78,7 +81,8 @@
     "scripts": {
         "test": "de .tmp && mocha test/test.js"
     },
-    "version": "1.2.3"
+    "version": "1.2.3",
+    "bin": {}
 }
 ```
 
