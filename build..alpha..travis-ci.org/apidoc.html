@@ -70,15 +70,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-directory-sync.toString">
-            function <span class="apidocSignatureSpan">gulp-directory-sync.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -131,37 +122,6 @@ files unchanged&#x27; );
 	);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-directory-sync.toString" id="apidoc.element.gulp-directory-sync.toString">
-        function <span class="apidocSignatureSpan">gulp-directory-sync.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-var path = require(&#x27;path&#x27;);
-
-var PLUGIN_NAME = &#x27;directory-sync&#x27;;
-var created = 0, removed = 0, updated = 0, same = 0;
-
-
-var areTheSame = function( src, dst ) {
-	var s = crc.crc32(fs.readFileSync(src)).<span class="apidocCodeKeywordSpan">toString</span>(16);
-	var d = crc.crc32(fs.readFileSync(dst)).toString(16);
-	return s === d;
-};
-
-
-var isIgnored = function( options, dir, file ) {
-	if ( options.ignore ) {
-...</pre></li>
     </ul>
 
 
